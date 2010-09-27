@@ -32,5 +32,6 @@ compiler error list.
 Further Reading
 ===============
 
-[Compiler Plugins](http://vimdoc.sourceforge.net/htmldoc/usr_41.html#41.13)
-[vim Quickfix Window](http://vimdoc.sourceforge.net/htmldoc/quickfix.html)
+* [Compiler Plugins](http://vimdoc.sourceforge.net/htmldoc/usr_41.html#41.13)
+
+* [vim Quickfix Window](http://vimdoc.sourceforge.net/htmldoc/quickfix.html)
