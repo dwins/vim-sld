@@ -25,7 +25,7 @@ Github homepage.
 Usage
 =====
 
-In vim, open an SLD file as normal.  Use `:compiler xmllint_xsd` to activate
+In vim, open an SLD file as normal.  Use `:compiler xmllint_sld` to activate
 the compiler plugin, then `:make %` to get a validation report in vim's
 compiler error list.
 
