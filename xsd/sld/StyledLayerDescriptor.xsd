@@ -238,11 +238,26 @@
         <xsd:element ref="sld:FeatureTypeName" minOccurs="0"/>
         <xsd:element ref="sld:SemanticTypeIdentifier" minOccurs="0"
                     maxOccurs="unbounded"/>
+        <xsd:element ref="sld:Transformation" minOccurs="0"/>
         <xsd:element ref="sld:Rule" maxOccurs="unbounded"/>
       </xsd:sequence>
     </xsd:complexType>
   </xsd:element>
   <xsd:element name="SemanticTypeIdentifier" type="xsd:string"/>
+
+  <xsd:element name="Transformation">
+    <xsd:annotation>
+      <xsd:documentation>
+        A Transformation is used to execute a WPS process and style the
+        resulting data on the fly.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="ogc:Function" minOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
 
   <xsd:element name="Rule">
     <xsd:annotation>
