@@ -1,6 +1,8 @@
 Install
 =======
 
+This plugin works well with Tim Pope's [fugitive](https://github.com/tpope/vim-pathogen/) plugin, but you can also install manually.
+
 1. Check out the repository with Git, or use the "Download Source" link on the
 Github homepage.
 
